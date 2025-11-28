@@ -1,4 +1,4 @@
-# Proyecto_ProgramacionBase1
+# Proyecto_ProgramacionBase2
 
 --Lenguaje Natural a Ensamblador--
 Convertir lenguaje natural a un lenguaje ensamblador basico simplificando las instrucciones de alto nivel a operaciones fundamentales de la CPU.
