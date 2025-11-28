@@ -1,0 +1,12 @@
+INICIO:
+    MOVER 10 A RA
+    comparar RA con 5
+    SI RA <= 5 ir_a BUCLE_INEXISTENTE   ← ETIQUETA QUE NO EXISTE
+    ir_a FINAL_INEXISTENTE             ← OTRA ETIQUETA QUE NO EXISTE
+
+LOOP:
+    sumar 5 + 3 y guardar en RB
+    dividir 10 / 0 y guardar en RC     ← DIVISIÓN POR CERO
+
+FIN:
+    guardar 999 en RZ                  ← REGISTRO INVÁLIDO (debe empezar con R + letra)

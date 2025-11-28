@@ -1,0 +1,13 @@
+INICIO:
+    Mueve el número 10 al registro A
+    Compara el registro A con 5
+    Si el registro A es menor o igual a 5 ve a BUCLE
+    Ve a FINAL
+
+BUCLE:
+    Suma 5 y 3 y guarda el resultado en el registro B
+    Multiplica 2 por 4 y guarda el resultado en el registro C
+    Ve a FINAL
+
+FINAL:
+    Guarda el número 999 en el registro D

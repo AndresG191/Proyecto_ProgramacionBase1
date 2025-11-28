@@ -1,0 +1,13 @@
+INICIO:
+    MOVER 10 A RA
+    comparar RA con 5
+    SI RA <= 5 IR_A BUCLE
+    IR_A FINAL
+
+BUCLE:
+    sumar 5 + 3 y guardar en RB
+    multiplicar 2 * 4 y guardar en RC
+    IR_A FINAL
+
+FINAL:
+    guardar 999 en RD

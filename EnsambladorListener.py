@@ -17,6 +17,33 @@ class EnsambladorListener(ParseTreeListener):
         pass
 
 
+    # Enter a parse tree produced by EnsambladorParser#linea.
+    def enterLinea(self, ctx:EnsambladorParser.LineaContext):
+        pass
+
+    # Exit a parse tree produced by EnsambladorParser#linea.
+    def exitLinea(self, ctx:EnsambladorParser.LineaContext):
+        pass
+
+
+    # Enter a parse tree produced by EnsambladorParser#ultima_linea.
+    def enterUltima_linea(self, ctx:EnsambladorParser.Ultima_lineaContext):
+        pass
+
+    # Exit a parse tree produced by EnsambladorParser#ultima_linea.
+    def exitUltima_linea(self, ctx:EnsambladorParser.Ultima_lineaContext):
+        pass
+
+
+    # Enter a parse tree produced by EnsambladorParser#etiqueta.
+    def enterEtiqueta(self, ctx:EnsambladorParser.EtiquetaContext):
+        pass
+
+    # Exit a parse tree produced by EnsambladorParser#etiqueta.
+    def exitEtiqueta(self, ctx:EnsambladorParser.EtiquetaContext):
+        pass
+
+
     # Enter a parse tree produced by EnsambladorParser#instruccion.
     def enterInstruccion(self, ctx:EnsambladorParser.InstruccionContext):
         pass
@@ -68,6 +95,15 @@ class EnsambladorListener(ParseTreeListener):
 
     # Exit a parse tree produced by EnsambladorParser#salto.
     def exitSalto(self, ctx:EnsambladorParser.SaltoContext):
+        pass
+
+
+    # Enter a parse tree produced by EnsambladorParser#guardar_inst.
+    def enterGuardar_inst(self, ctx:EnsambladorParser.Guardar_instContext):
+        pass
+
+    # Exit a parse tree produced by EnsambladorParser#guardar_inst.
+    def exitGuardar_inst(self, ctx:EnsambladorParser.Guardar_instContext):
         pass
 
 

@@ -1,0 +1,12 @@
+INICIO:
+    MOVER 10 A RA
+    comparar RA con 5
+    SI RA <= 5 ir_a LOOP
+    ir_a FIN
+
+LOOP:
+    sumar 5 + 3 y guardar en RB
+    multiplicar 2 * 4 y guardar en RC
+
+FIN:
+    guardar 999 en RD
